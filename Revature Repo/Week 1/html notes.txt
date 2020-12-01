@@ -1,0 +1,85 @@
+
+HTML
+
+HTML is broken down into two subsets: elements and attributes
+
+	Elements such as <a> and attributes such as href
+
+Two types of elements:
+	
+	Block elements such as <div>, will render on a new line by default
+
+	Inline elements such as <span>, can sit next to each other on the
+		same line
+
+Common HTML Elements:
+
+	<div> - block element defines division of the page, often contains other elements
+	<span> - standard inline element
+	<br> - line break (does not need closing tag)
+	<img> - displays image (does not need closing tag)
+	<p> - defines paragraph (block)
+	<h1> through <h6> - header tags, h1 largest
+	<a> - anchor tag used to make a hyperlink
+
+
+
+
+<!DOCTYPE html> - doctype declaration to start an html file
+
+<html> is the root tag of html documents, everything must be in between <html> and </html>
+
+page is then divided between <head> and <body> tags
+
+<head> has metadata, <body> has actual contents
+
+HTML Tables:
+
+Create a table, use <table> tag
+<thead> defines header rows
+	inside thead tag, can use <tr> to create rows
+		inside those rows can use <th> for cell data
+<tbody> defines the body of a table
+	Inside tbody, also use tr tags for rows
+		Inside those tr tags, use <td> for cells
+<tfoot> can be used to add a footer element to table
+
+
+
+HTML5 had some new elements, like semantic elements that describe parts of the file:
+
+	<header>
+	<article>
+
+Also support for audio and video
+
+	<audio>
+	<video>
+
+	
+HTML Forms:
+
+HTML has built in functionality for forms. Forms take various inputs and then submit to a server or handle with JS.
+
+Input elements include
+
+	Text field
+	Password
+	Radio buttons - one option from a list
+	Checkboxes - multiple options from a list
+	Select boxes - drop down list
+	File select boxes - allows user to upload files from their machine
+	Text area - multi-line text field
+	Reset and submit buttons
+
+Attributes used in forms:
+
+	Action - how (or where) the form data will be processed.
+	Target - where the result will open: same window (self) or new tab/window (blank)
+	Name - each input needs a name value so the data can be labeled
+	Method - what HTTP method the form will use to send the form, GET or POST
+	Value - the initial value of the field
+	Placeholder - hint to describe what should be entered in the field
+	Required - field must be inputted with a value
+	Min/Max - the minimum or maximum value the field can have
+

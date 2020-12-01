@@ -1,0 +1,54 @@
+CSS - language for styling HTML documents
+Specifies certain rules for layout and display of HTML elements
+CSS uses key/value pairs to indicate the styling to apply
+
+CSS uses selectors and declarations:
+
+Selector: defines elements to be styled
+Declaration: the style you are imposing on the selector
+
+CSS Box Model
+
+CSS treats each HTTML element as a box
+Each box has 4 regions
+
+From inner to outer:
+
+Content
+Padding
+Border
+Margin
+
+Three ways to style CSS:
+
+External Style sheet (a separate document)
+Internal in the head
+Inline in the actual element tag
+
+Conflicts:
+
+The CSS closest to the element will win-out in conflicts, inline wil override head which will
+override external sheet
+
+
+For padding:
+
+Giving generic padding with numbers will shorthand the filling:
+
+1 number: all four sides {padding:70px;}
+2 numbers: first is top and bottom, second is left and right {padding:35px 70px}
+3 numbers: 1st the top, 2nd is left and right, 3rd is bottom
+4 numbers: 1st is top, 2nd is right, 3rd is bottom, 4th is left
+
+Margin is similar to padding just on other side of the border
+
+Display - determins the display behavior of the element, inline or block
+Position: defines where on the page the element is displayed
+
+	Static - element box is arranged normally
+	
+
+Bootstrap Grid system:
+
+Bootstrap uses a layout called the grid system. Bootstrap consists of containers which contains rows, which
+themselves contains columns. Layout will be responsive to window size changes.

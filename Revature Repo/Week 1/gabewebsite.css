@@ -1,0 +1,30 @@
+h1, h2, h3{
+    text-align:center;
+    padding-top:2%;
+}
+
+h2 {
+    padding-bottom:1%;
+}
+
+#interest_header {
+    padding-bottom:1%;
+}
+
+body div {
+    margin-top:3%;
+    
+}
+
+#background_info {
+    width:98%;
+    text-indent: 3%;
+}
+#interest_info {
+    margin-top:2%;
+}
+#interest_info, #interest_info2 {
+    text-align:left;
+    text-indent: 3%;
+    width:98%;
+}
